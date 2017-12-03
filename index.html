@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pixel Art Maker</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="javascript.js"></script>
+	<h1>Pixel Art Maker</h1>
+	<div class="input">
+		<label for="width">Grid Width:</label><input type="text" id="width" value="20">
+		<label for="height">Grid Height:</label><input type="text" id="height" value="20">
+		<button id="submit">submit</button>
+	</div>
+	<div class="color">
+		<label for="color">Pick a color</label>
+		<select name="color" size="1" id="color">
+			<option value="red" id="red">red</option>
+			<option value="blue" id="blue">blue</option>
+			<option value="green" id="green">green</option>
+			<option value="yellow" id="yellow">yellow</option>
+			<option value="black" id="black">black</option>
+			<option value="orange" id="orange">orange</option>
+			<option value="silver" id="silver">silver</option>
+		</select>
+	</div>
+	<div class="grid"></div>
+</body>
+</html>

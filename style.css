@@ -1,0 +1,43 @@
+body {
+	width: 1000px;
+	margin: auto;
+	margin-top: 100px;
+	border: 1px solid silver;
+	border-radius: 5px;	
+}
+
+h1 {
+	width: 260px;
+	margin: auto;
+	display: block;
+	padding-top: 20px;
+}
+
+.input, .color {
+	width:600px;
+	margin: auto;
+	padding: 20px;
+}
+
+.color{
+	width: 200px;
+}
+
+.input label, .input input{
+	margin-left: 5px;
+}
+
+.grid-item {
+	border:0.5px solid black;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-bottom: -4px;
+}
+
+.grid {
+	margin: auto;
+	border: 0.5px solid black;
+	margin-bottom: 20px;
+	background-color: white !important;
+}
